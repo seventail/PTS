@@ -1,0 +1,19 @@
+<root>
+	<menu code="0301" name="场站管理" authorized="true" index="3">
+		<menu code="030101" name="场站信息" url="/admin/station/do/index.q" index="1"/>
+        <menu code="030111" name="楼层信息" url="/admin/floor/do/index.q" index="2"/>
+	</menu>
+    <menu code="0302" name="车位查询" authorized="true" index="4">
+        <menu code="030201" name="楼层车位总体情况" url="/admin/carportInfo/do/index.q" index="1"/>
+        <menu code="030202" name="停车记录查询" url="/admin/parkingInfo/do/index.q" index="2"/>
+    </menu>
+    <menu code="0303" name="报表统计" authorized="true" index="5">
+        <menu code="030301" name="统计信息" url="/admin/report/do/index.q" index="1"/>
+    </menu>
+    <menu code="0304" name="场站绑定" authorized="true" index="6">
+        <menu code="030401" name="场站绑定" url="/admin/stationBinding/do/index.q" index="1"/>
+    </menu>
+    <menu code="0305" name="用户管理" authorized="true" index="7">
+        <menu code="030501" name="用户列表" url="/admin/users/do/index.q" index="1"/>
+    </menu>
+</root>

@@ -1,0 +1,6 @@
+<!DOCTYPE glassfish-web-app PUBLIC "-//GlassFish.org//DTD
+GlassFish Application Server 3.1 Servlet 3.0//EN"
+		"http://www.glassfish.org/dtds/glassfish-web-app_3_0-1.dtd">
+<glassfish-web-app>
+	<!--<class-loader delegate="true" extra-class-path="E:/spring-instrument-tomcat-3.0.3.RELEASE.jar"/>-->
+</glassfish-web-app>

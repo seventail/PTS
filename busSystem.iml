@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="hibernate.cfg.xml" />
+          <unit-entry name="sessionFactory" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/javacode/base/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>jar://$MAVEN_REPOSITORY$/com/greejoy/greejoy-gtip/1.0.6/greejoy-gtip-1.0.6.jar!/conf/platform/applicationContext-aop.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/com/greejoy/greejoy-gtip/1.0.6/greejoy-gtip-1.0.6.jar!/conf/platform/applicationContext-persistence.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/com/greejoy/greejoy-gtip/1.0.6/greejoy-gtip-1.0.6.jar!/conf/platform/applicationContext-transaction.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/com/greejoy/greejoy-gtip/1.0.6/greejoy-gtip-1.0.6.jar!/conf/platform/applicationContext-web.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/com/greejoy/greejoy-gtip/1.0.6/greejoy-gtip-1.0.6.jar!/conf/applicationContext.xml</file>
+          <file>jar://$MAVEN_REPOSITORY$/com/greejoy/greejoy-gtip/1.0.6/greejoy-gtip-1.0.6.jar!/conf/platform/applicationContext.xml</file>
+          <file>file://$MAVEN_REPOSITORY$/com/greejoy/greejoy-gtip/1.0.6/greejoy-gtip-1.0.6.jar</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
+        </webroots>
+      </configuration>
+      <facet type="Struts2" name="Struts 2">
+        <configuration>
+          <propertiesKeys disabled="false" />
+        </configuration>
+      </facet>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_5" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/web/WEB-INF/classes" />
+    <output-test url="file://$MODULE_DIR$/web/WEB-INF/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/javacode/base" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/javacode/config" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/javacode/station" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/javacode/bind" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/javacode/floor" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/javacode/chart" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/javacode/car" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/javacode/user" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="jfreechart" level="project" />
+    <orderEntry type="library" name="SqlJDBC4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Tomcat 7.0.52" level="application_server_libraries" />
+    <orderEntry type="library" name="lib" level="project" />
+  </component>
+</module>

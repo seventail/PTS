@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC '-//Apache Software Foundation//DTD Struts Configuration 2.0//EN'
+		'http://struts.apache.org/dtds/struts-2.0.dtd'>
+<struts>
+
+	<package name="admin/car" namespace="/admin/car" extends="sys-default">
+        <action name="carAll/do/*" method="{1}" class="carAllAction">
+            <interceptor-ref name="mydefault"/>
+            <result name="{1}">/WEB-INF/busSystem/car/carAll/{1}.jsp</result>
+            <result name="connectionError">/WEB-INF/busSystem/station/connectionError.jsp</result>
+        </action>
+        <action name="carSearch/do/*" method="{1}"  class="carSearchAction">
+            <interceptor-ref name="mydefault"/>
+            <result name="carSearch">/WEB-INF/busSystem/car/carSearch/carSearch.jsp</result>
+            <result name="carTop10">/WEB-INF/busSystem/car/carSearch/carTop10.jsp</result>
+            <result name="connectionError">/WEB-INF/busSystem/station/connectionError.jsp</result>
+        </action>
+        <action name="carFloor/do/*" method="{1}" class="carFloorAction">
+            <interceptor-ref name="mydefault"/>
+            <result name="{1}">/WEB-INF/busSystem/car/carFloor/{1}.jsp</result>
+        </action>
+        <action name="detector/do/*" method="{1}" class="detectorAction">
+            <interceptor-ref name="mydefault"/>
+            <result name="{1}">/WEB-INF/busSystem/car/detector/{1}.jsp</result>
+        </action>
+	</package>
+    <package name="admin/carInfo" namespace="/admin/carInfo" extends="carInfo-default">
+        <action name="do/*" method="{1}" class="carInfoAction">
+            <interceptor-ref name="carInfo-default"/>
+            <result name="{1}">/WEB-INF/busSystem/car/carInfo/{1}.jsp</result>
+            <result name="updateTr">/WEB-INF/busSystem/car/carInfo/updateTr.jsp</result>
+        </action>
+    </package>
+    <package name="admin/searchTime" namespace="/admin/searchTime" extends="carInfo-default">
+        <action name="do/*" method="{1}" class="searchTimeAction">
+            <interceptor-ref name="carInfo-default"/>
+            <result name="{1}">/WEB-INF/busSystem/car/searchTime/{1}.jsp</result>
+        </action>
+    </package>
+</struts>

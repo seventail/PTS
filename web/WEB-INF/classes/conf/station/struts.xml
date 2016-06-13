@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC '-//Apache Software Foundation//DTD Struts Configuration 2.0//EN'
+		'http://struts.apache.org/dtds/struts-2.0.dtd'>
+<struts>
+	<package name="admin/station" namespace="/admin/station" extends="carInfo-default">
+        <action name="do/*" method="{1}" class="stationAction">
+            <interceptor-ref name="carInfo-default"/>
+            <result name="index">/WEB-INF/busSystem/station/index.jsp</result>
+            <result name="{1}">/WEB-INF/busSystem/station/{1}.jsp</result>
+            <result name="addTr">/WEB-INF/busSystem/station/addTr.jsp</result>
+            <result name="updateTr">/WEB-INF/busSystem/station/updateTr.jsp</result>
+        </action>
+        <action name="binding/do/*" method="{1}" class="bindingStationAction">
+            <result name="{1}">/WEB-INF/busSystem/station/{1}.jsp</result>
+        </action>
+        <action name="ajax/*" method="{1}" class="stationAction"/>
+	</package>
+</struts>

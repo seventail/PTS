@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE jboss-web PUBLIC "-//JBoss//DTD Web Application 5.0//EN"
+		"http://www.jboss.org/j2ee/dtd/jboss-web_5_0.dtd">
+<jboss-web>
+	<!--
+	 设置为 /上下文,需要注意的是，除了此。还需要在jboss的configuration目录下的standalone.xml中
+	 配置enable-welcome-root为false,默认为true
+	 -->
+	<context-root>/</context-root>
+</jboss-web>

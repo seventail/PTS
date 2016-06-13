@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC '-//Apache Software Foundation//DTD Struts Configuration 2.0//EN'
+		'http://struts.apache.org/dtds/struts-2.0.dtd'>
+<struts>
+
+	<package name="admin/chart" namespace="/admin/chart" extends="sys-default">
+        <action name="do/*" method="{1}" class="chartAction">
+            <interceptor-ref name="mydefault"/>
+            <result name="chart">/WEB-INF/busSystem/chart/chart.jsp</result>
+            <result name="statistical">/WEB-INF/busSystem/chart/chart.jsp</result>
+            <result name="connectionError">/WEB-INF/busSystem/station/connectionError.jsp</result>
+        </action>
+	</package>
+</struts>

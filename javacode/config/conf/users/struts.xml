@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC '-//Apache Software Foundation//DTD Struts Configuration 2.0//EN'
+        'http://struts.apache.org/dtds/struts-2.0.dtd'>
+<struts>
+
+    <package name="admin/user" namespace="/admin/user" extends="platform-default">
+        <action name="do/*" method="{1}" class="usersAction">
+            <result name="{1}">/WEB-INF/busSystem/users/{1}.jsp</result>
+            <result name="addTr">/WEB-INF/busSystem/users/addTr.jsp</result>
+            <result name="updateTr">/WEB-INF/busSystem/users/updateTr.jsp</result>
+            <result name="editpassword">/WEB-INF/busSystem/users/editpassword.jsp</result>
+        </action>
+        <action name="perssion/do/*" method="{1}" class="perssionAction">
+            <result name="{1}">/WEB-INF/busSystem/perssion/{1}.jsp</result>
+            <result name="index" type="redirect">/admin/user/do/index.q</result>
+        </action>
+        <action name="ajax/*" method="{1}" class="usersAction"/>
+    </package>
+</struts>

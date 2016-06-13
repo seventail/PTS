@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC '-//Apache Software Foundation//DTD Struts Configuration 2.0//EN'
+		'http://struts.apache.org/dtds/struts-2.0.dtd'>
+<struts>
+    <package name="admin/floor" namespace="/admin/floor" extends="platform-default">
+        <action name="do/*" method="{1}" class="floorAction">
+            <result name="index">/WEB-INF/busSystem/floor/index.jsp</result>
+            <result name="{1}">/WEB-INF/busSystem/floor/{1}.jsp</result>
+            <result name="addTr">/WEB-INF/busSystem/floor/addTr.jsp</result>
+            <result name="updateTr">/WEB-INF/busSystem/floor/updateTr.jsp</result>
+            <result name="stationFail" type="redirect">/admin/station/binding/do/beforeBinding.q</result>
+        </action>
+    </package>
+</struts>

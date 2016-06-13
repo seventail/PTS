@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project basedir="." default="compile">
+	<target name="clean">
+		<delete dir="web/WEB-INF/classes"/>
+		<delete dir="web/WEB-INF/lib"/>
+	</target>
+	<target name="compile">
+		<mkdir dir="web/WEB-INF/classes"/>
+		<javac destdir="web/WEB-INF/classes"
+			   includes="**/*.java" srcdir="javacode" excludes="test/**/*.java" encoding="UTF-8" debug="true" debugLevel="vars">
+			<classpath>
+				<fileset dir="web/WEB-INF/lib" includes="**/*.jar"/>
+				<fileset dir="${env.tomcathome}/lib" includes="**/*.jar"/>
+			</classpath>
+		</javac>
+		<copy todir="web/WEB-INF/classes">
+			<fileset dir="javacode/config" excludes="**/*.java"/>
+		</copy>
+	</target>
+
+	<target name="instrument">
+		<taskdef name="instrument" classname="org.hibernate.tool.instrument.javassist.InstrumentTask">
+			<classpath>
+				<fileset dir="web/WEB-INF/lib" includes="**/*.jar"/>
+				<fileset dir="${env.tomcathome}/lib" includes="**/*.jar"/>
+			</classpath>
+		</taskdef>
+		<instrument verbose="true">
+			<fileset dir="web/WEB-INF/classes/com/greejoy/gtip/log/domain" includes="*Log.class" />
+		</instrument>
+	</target>
+</project>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Created by Fly_m at 2008-4-24
+    捷众科技有限公司
+-->
+
+<!DOCTYPE struts PUBLIC '-//Apache Software Foundation//DTD Struts Configuration 2.0//EN'
+		'http://struts.apache.org/dtds/struts-2.0.dtd'>
+<struts>
+
+    <package name="sys-default" extends="platform-default" abstract="true">
+        <interceptors>
+            <interceptor name="station-permission" class="com.greejoy.base.interceptor.RbacInterceptor"/>
+            <interceptor-stack name="mydefault">
+                <interceptor-ref name="userSession" />
+                <interceptor-ref name="defaultStack" />
+                <interceptor-ref name="station-permission" />
+            </interceptor-stack>
+        </interceptors>
+        <global-results>
+			<result name="stationFail" type="redirect">/admin/station/binding/do/beforeBinding.q</result>
+		</global-results>
+    </package>
+    <package name="carInfo-default" extends="platform-default" abstract="true">
+        <interceptors>
+            <interceptor name="carInfo-permission" class="com.greejoy.base.interceptor.CarInfoInterceptor"/>
+            <interceptor-stack name="carInfo-default">
+                <interceptor-ref name="userSession"/>
+                <interceptor-ref name="defaultStack"/>
+                <interceptor-ref name="carInfo-permission"/>
+            </interceptor-stack>
+        </interceptors>
+        <global-results>
+			<result name="permissionFail">/WEB-INF/gtip/support/error/permissionFail.jsp</result>
+		</global-results>
+    </package>
+	<constant name="struts.multipart.maxSize" value="6291456"/>
+
+</struts>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactManager">
+    <artifact type="exploded-war" name="Bussystem">
+      <output-path>$PROJECT_DIR$/web</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="lib">
+            <element id="library" level="project" name="jfreechart" />
+            <element id="library" level="project" name="Maven: antlr:antlr:2.7.6" />
+            <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
+            <element id="library" level="project" name="Maven: asm:asm-commons:3.3" />
+            <element id="library" level="project" name="Maven: asm:asm-tree:3.3" />
+            <element id="library" level="project" name="Maven: asm:asm:3.3" />
+            <element id="library" level="project" name="Maven: cglib:cglib-nodep:2.2" />
+            <element id="library" level="project" name="Maven: com.alibaba:druid:0.2.5" />
+            <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.1.23" />
+            <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
+            <element id="library" level="project" name="Maven: com.google.guava:guava:13.0" />
+            <element id="library" level="project" name="Maven: com.greejoy:greejoy-gtip:1.0.6" />
+            <element id="library" level="project" name="Maven: com.greejoy:greejoy-struts2-core:2.1.8.1" />
+            <element id="library" level="project" name="Maven: com.greejoy:greejoy-struts2-spring-plugin:2.1.8.1" />
+            <element id="library" level="project" name="Maven: com.greejoy:greejoy-xwork-core:2.1.6.1" />
+            <element id="library" level="project" name="Maven: com.greejoy:gtipac:1.0.1" />
+            <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.8.3" />
+            <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.4" />
+            <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.1" />
+            <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.1" />
+            <element id="library" level="project" name="Maven: commons-io:commons-io:1.3.2" />
+            <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.5" />
+            <element id="library" level="project" name="Maven: dom4j:dom4j:1.6.1" />
+            <element id="library" level="project" name="Maven: javax.transaction:jta:1.1" />
+            <element id="library" level="project" name="Maven: javax.validation:validation-api:1.0.0.GA" />
+            <element id="library" level="project" name="Maven: jaxen:jaxen:1.1.1" />
+            <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
+            <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.9" />
+            <element id="library" level="project" name="Maven: net.sf.ehcache:ehcache-core:2.4.3" />
+            <element id="library" level="project" name="Maven: net.sourceforge.jexcelapi:jxl:2.6.12" />
+            <element id="library" level="project" name="Maven: ognl:ognl:3.0.5" />
+            <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.10" />
+            <element id="library" level="project" name="Maven: org.bouncycastle:bcprov-jdk16:1.45" />
+            <element id="library" level="project" name="Maven: org.freemarker:freemarker:2.3.15" />
+            <element id="library" level="project" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.0-api:1.0.1.Final" />
+            <element id="library" level="project" name="Maven: org.hibernate:hibernate-commons-annotations:3.2.0.Final" />
+            <element id="library" level="project" name="Maven: org.hibernate:hibernate-core:3.6.6.Final" />
+            <element id="library" level="project" name="Maven: org.hibernate:hibernate-ehcache:3.6.6.Final" />
+            <element id="library" level="project" name="Maven: org.hibernate:hibernate-validator:4.1.0.Final" />
+            <element id="library" level="project" name="Maven: org.javassist:javassist:3.14.0-GA" />
+            <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.6.0" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.6.0" />
+            <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.6.0" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aop:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-asm:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-aspects:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context-support:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-context:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-core:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-expression:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-instrument:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-orm:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-tx:3.0.3.RELEASE" />
+            <element id="library" level="project" name="Maven: org.springframework:spring-web:3.0.3.RELEASE" />
+            <element id="library" level="project" name="SqlJDBC4" />
+          </element>
+        </element>
+      </root>
+    </artifact>
+    <artifact type="war" name="busSystem:war">
+      <output-path>$PROJECT_DIR$/target</output-path>
+      <root id="archive" name="busSystem-1.0.0.war">
+        <element id="artifact" artifact-name="busSystem:war exploded" />
+      </root>
+    </artifact>
+    <artifact type="exploded-war" name="busSystem:war exploded">
+      <output-path>$PROJECT_DIR$/target/busSystem-1.0.0</output-path>
+      <root id="root">
+        <element id="directory" name="WEB-INF">
+          <element id="directory" name="classes">
+            <element id="module-output" name="busSystem" />
+          </element>
+        </element>
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/target/busSystem-1.0.0/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="javaee-facet-resources" facet="busSystem/web/Web" />
+      </root>
+    </artifact>
+  </component>
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="?*.properties" />
+      <entry name="?*.xml" />
+      <entry name="?*.gif" />
+      <entry name="?*.png" />
+      <entry name="?*.jpeg" />
+      <entry name="?*.jpg" />
+      <entry name="?*.html" />
+      <entry name="?*.dtd" />
+      <entry name="?*.tld" />
+      <entry name="?*.ftl" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="busSystem" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="busSystem" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="CopyrightManager" default="" />
+  <component name="DependencyValidationManager">
+    <option name="SKIP_IMPORT_STATEMENTS" value="false" />
+  </component>
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="true">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" />
+    <option name="OPTION_SCOPE" value="protected" />
+    <option name="OPTION_HIERARCHY" value="true" />
+    <option name="OPTION_NAVIGATOR" value="true" />
+    <option name="OPTION_INDEX" value="true" />
+    <option name="OPTION_SEPARATE_INDEX" value="true" />
+    <option name="OPTION_DOCUMENT_TAG_USE" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_AUTHOR" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_VERSION" value="false" />
+    <option name="OPTION_DOCUMENT_TAG_DEPRECATED" value="true" />
+    <option name="OPTION_DEPRECATED_LIST" value="true" />
+    <option name="OTHER_OPTIONS" value="" />
+    <option name="HEAP_SIZE" />
+    <option name="LOCALE" />
+    <option name="OPEN_IN_BROWSER" value="true" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/busSystem.iml" filepath="$PROJECT_DIR$/busSystem.iml" />
+    </modules>
+  </component>
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" default="false" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+  <component name="SvnBranchConfigurationManager">
+    <option name="mySupportsUserInfoFilter" value="true" />
+  </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="svn" />
+  </component>
+  <component name="libraryTable">
+    <library name="jfreechart">
+      <CLASSES>
+        <root url="jar://F:/Java_Tools/jar 包/jfreechart-1.0.19.jar!/" />
+        <root url="jar://F:/Java_Tools/jar 包/jcommon-1.0.23.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="lib">
+      <CLASSES>
+        <root url="file://$PROJECT_DIR$/web/WEB-INF/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES>
+        <root url="file://$PROJECT_DIR$/web/WEB-INF/lib" />
+      </SOURCES>
+      <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib" recursive="false" />
+      <jarDirectory url="file://$PROJECT_DIR$/web/WEB-INF/lib" recursive="false" type="SOURCES" />
+    </library>
+    <library name="Maven: com.greejoy:greejoy-struts2-core:2.1.8.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/com/greejoy/greejoy-struts2-core/2.1.8.1/greejoy-struts2-core-2.1.8.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/com/greejoy/greejoy-struts2-core/2.1.8.1/greejoy-struts2-core-2.1.8.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://E:/Java_Tools/jar 包/greejoy-struts2-core-2.1.8.1.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/com/greejoy/greejoy-struts2-core/2.1.8.1/greejoy-struts2-core-2.1.8.1-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="SqlJDBC4">
+      <CLASSES>
+        <root url="jar://E:/Java_Tools/jar 包/sqljdbc4.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+  </component>
+</project>
