@@ -54,7 +54,7 @@
       <sourceFolder url="file://$MODULE_DIR$/javacode/car" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/javacode/user" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="jfreechart" level="project" />
     <orderEntry type="library" name="SqlJDBC4" level="project" />

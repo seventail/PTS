@@ -15,6 +15,7 @@ public class CarDBUtil {
     public static final  String UserName = "sa";
     /**数据库密码*/
     public static final String UserPassword = "jzkj-1248";
+//    public static final String UserPassword = "11111";
     public static String Url = "";
     /**
      * 获得数据库连接
